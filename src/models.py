@@ -1,7 +1,11 @@
 from pydantic import BaseModel
 
 
-class RetornoResponse(BaseModel):
+
+
+
+
+class RetornoPosicaoResponse(BaseModel):
     idNota: str 
     colLiqEstCust: str 
     dtAplicacao: str 
